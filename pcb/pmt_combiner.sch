@@ -19,7 +19,7 @@ U 1 1 5F032567
 P 7850 2750
 F 0 "U1" H 7850 3117 50  0000 C CNN
 F 1 "LM324" H 7850 3026 50  0000 C CNN
-F 2 "" H 7800 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7800 2850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7900 2950 50  0001 C CNN
 	1    7850 2750
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 5 1 5F032F34
 P 3850 6100
 F 0 "U1" V 3525 6100 50  0000 C CNN
 F 1 "LM324" V 3616 6100 50  0000 C CNN
-F 2 "" H 3800 6200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 3800 6200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3900 6300 50  0001 C CNN
 	5    3850 6100
 	0    1    1    0   
@@ -41,7 +41,7 @@ U 2 1 5F033BD6
 P 9150 2650
 F 0 "U1" H 9150 3017 50  0000 C CNN
 F 1 "LM324" H 9150 2926 50  0000 C CNN
-F 2 "" H 9100 2750 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9100 2750 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9200 2850 50  0001 C CNN
 	2    9150 2650
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5F036CFA
 P 1950 4750
 F 0 "J1" H 2007 5067 50  0000 C CNN
 F 1 "Barrel_Jack_MountingPin" H 2007 4976 50  0000 C CNN
-F 2 "" H 2000 4710 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 2000 4710 50  0001 C CNN
 F 3 "~" H 2000 4710 50  0001 C CNN
 	1    1950 4750
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5F039FF8
 P 3200 5600
 F 0 "R1" V 2993 5600 50  0000 C CNN
 F 1 "10k" V 3084 5600 50  0000 C CNN
-F 2 "" V 3130 5600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3130 5600 50  0001 C CNN
 F 3 "~" H 3200 5600 50  0001 C CNN
 	1    3200 5600
 	0    1    1    0   
@@ -74,7 +74,7 @@ U 1 1 5F03A45B
 P 3750 5600
 F 0 "R2" V 3543 5600 50  0000 C CNN
 F 1 "10k" V 3634 5600 50  0000 C CNN
-F 2 "" V 3680 5600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 3680 5600 50  0001 C CNN
 F 3 "~" H 3750 5600 50  0001 C CNN
 	1    3750 5600
 	0    1    1    0   
@@ -82,11 +82,11 @@ $EndComp
 Wire Wire Line
 	2250 4650 3900 4650
 Wire Wire Line
-	3900 4650 3900 5600
+	3900 4650 3900 5150
 Wire Wire Line
 	2250 4850 3050 4850
 Wire Wire Line
-	3050 4850 3050 5600
+	3050 4850 3050 5150
 Wire Wire Line
 	3900 5600 4150 5600
 Wire Wire Line
@@ -98,7 +98,7 @@ U 1 1 5F04624C
 P 8150 3050
 F 0 "R5" H 8080 3004 50  0000 R CNN
 F 1 "10k" H 8080 3095 50  0000 R CNN
-F 2 "" V 8080 3050 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8080 3050 50  0001 C CNN
 F 3 "~" H 8150 3050 50  0001 C CNN
 	1    8150 3050
 	-1   0    0    1   
@@ -117,7 +117,7 @@ U 1 1 5F04BDA5
 P 6600 2600
 F 0 "R3" V 6807 2600 50  0000 C CNN
 F 1 "10k" V 6716 2600 50  0000 C CNN
-F 2 "" V 6530 2600 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6530 2600 50  0001 C CNN
 F 3 "~" H 6600 2600 50  0001 C CNN
 	1    6600 2600
 	0    -1   -1   0   
@@ -128,7 +128,7 @@ U 1 1 5F04C755
 P 6600 3000
 F 0 "R4" V 6807 3000 50  0000 C CNN
 F 1 "10k" V 6716 3000 50  0000 C CNN
-F 2 "" V 6530 3000 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 6530 3000 50  0001 C CNN
 F 3 "~" H 6600 3000 50  0001 C CNN
 	1    6600 3000
 	0    -1   -1   0   
@@ -154,7 +154,7 @@ U 1 1 5F056270
 P 9450 2950
 F 0 "R7" H 9380 2904 50  0000 R CNN
 F 1 "1k" H 9380 2995 50  0000 R CNN
-F 2 "" V 9380 2950 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 9380 2950 50  0001 C CNN
 F 3 "~" H 9450 2950 50  0001 C CNN
 	1    9450 2950
 	-1   0    0    1   
@@ -165,7 +165,7 @@ U 1 1 5F056B1B
 P 8450 2750
 F 0 "R6" V 8657 2750 50  0000 C CNN
 F 1 "1k" V 8566 2750 50  0000 C CNN
-F 2 "" V 8380 2750 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal" V 8380 2750 50  0001 C CNN
 F 3 "~" H 8450 2750 50  0001 C CNN
 	1    8450 2750
 	0    -1   -1   0   
@@ -206,8 +206,8 @@ L Switch:SW_SPDT SW1
 U 1 1 5F05E92E
 P 6000 2600
 F 0 "SW1" H 6000 2275 50  0000 C CNN
-F 1 "SW_SPDT" H 6000 2366 50  0000 C CNN
-F 2 "" H 6000 2600 50  0001 C CNN
+F 1 "in1 on/off" H 6000 2366 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-3P-3_Vertical" H 6000 2600 50  0001 C CNN
 F 3 "~" H 6000 2600 50  0001 C CNN
 	1    6000 2600
 	-1   0    0    1   
@@ -225,8 +225,8 @@ L Switch:SW_SPDT SW2
 U 1 1 5F0622F9
 P 6000 3050
 F 0 "SW2" H 6000 3335 50  0000 C CNN
-F 1 "SW_SPDT" H 6000 3244 50  0000 C CNN
-F 2 "" H 6000 3050 50  0001 C CNN
+F 1 "in2 on/off" H 6000 3244 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-3P-3_Vertical" H 6000 3050 50  0001 C CNN
 F 3 "~" H 6000 3050 50  0001 C CNN
 	1    6000 3050
 	-1   0    0    -1  
@@ -300,8 +300,8 @@ L Connector:Conn_Coaxial J3
 U 1 1 5F054A6C
 P 5400 2950
 F 0 "J3" H 5750 3000 50  0000 C CNN
-F 1 "Conn_Coaxial" H 5700 2900 50  0000 C CNN
-F 2 "" H 5400 2950 50  0001 C CNN
+F 1 "input2" H 5700 2900 50  0000 C CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 5400 2950 50  0001 C CNN
 F 3 " ~" H 5400 2950 50  0001 C CNN
 	1    5400 2950
 	-1   0    0    -1  
@@ -316,8 +316,8 @@ L Connector:Conn_Coaxial J2
 U 1 1 5F052E6B
 P 5400 2700
 F 0 "J2" H 5500 2582 50  0000 L CNN
-F 1 "Conn_Coaxial" H 5500 2673 50  0000 L CNN
-F 2 "" H 5400 2700 50  0001 C CNN
+F 1 "input1" H 5500 2673 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 5400 2700 50  0001 C CNN
 F 3 " ~" H 5400 2700 50  0001 C CNN
 	1    5400 2700
 	-1   0    0    1   
@@ -327,8 +327,8 @@ L Connector:Conn_Coaxial J4
 U 1 1 5F05E55C
 P 10050 2650
 F 0 "J4" H 10150 2625 50  0000 L CNN
-F 1 "Conn_Coaxial" H 10150 2534 50  0000 L CNN
-F 2 "" H 10050 2650 50  0001 C CNN
+F 1 "Ouput1" H 10150 2534 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_Amphenol_B6252HB-NPP3G-50_Horizontal" H 10050 2650 50  0001 C CNN
 F 3 " ~" H 10050 2650 50  0001 C CNN
 	1    10050 2650
 	1    0    0    -1  
@@ -356,7 +356,7 @@ U 3 1 5F0644BB
 P 7900 4150
 F 0 "U1" H 7900 4517 50  0000 C CNN
 F 1 "LM324" H 7900 4426 50  0000 C CNN
-F 2 "" H 7850 4250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 7850 4250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7950 4350 50  0001 C CNN
 	3    7900 4150
 	1    0    0    -1  
@@ -367,7 +367,7 @@ U 4 1 5F06508F
 P 9050 4100
 F 0 "U1" H 9050 4467 50  0000 C CNN
 F 1 "LM324" H 9050 4376 50  0000 C CNN
-F 2 "" H 9000 4200 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 9000 4200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9100 4300 50  0001 C CNN
 	4    9050 4100
 	1    0    0    -1  
@@ -380,4 +380,41 @@ NoConn ~ 7600 4250
 NoConn ~ 8200 4150
 Text Notes 1400 4350 0    50   ~ 0
 Power supply should be selected depending on signal output range.\neg if output should be between +-5V then power supply should be 12V\nas in this case the circuit will "split it" into +-6V\n\nThe opamp in this circuit can take up to +-16V
+$Comp
+L Device:CP_Small C1
+U 1 1 5F1748BA
+P 3150 5150
+F 0 "C1" V 3375 5150 50  0000 C CNN
+F 1 "100µf" V 3284 5150 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3150 5150 50  0001 C CNN
+F 3 "~" H 3150 5150 50  0001 C CNN
+	1    3150 5150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3050 5150
+Wire Wire Line
+	3050 5150 3050 5600
+$Comp
+L Device:CP_Small C2
+U 1 1 5F175021
+P 3650 5150
+F 0 "C2" V 3875 5150 50  0000 C CNN
+F 1 "100µF" V 3784 5150 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 3650 5150 50  0001 C CNN
+F 3 "~" H 3650 5150 50  0001 C CNN
+	1    3650 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 5150 3450 5150
+Wire Wire Line
+	3450 5150 3450 5600
+Wire Wire Line
+	3550 5150 3450 5150
+Connection ~ 3450 5150
+Wire Wire Line
+	3750 5150 3900 5150
+Connection ~ 3900 5150
+Wire Wire Line
+	3900 5150 3900 5600
 $EndSCHEMATC
