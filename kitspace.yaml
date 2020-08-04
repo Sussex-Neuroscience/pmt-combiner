@@ -1,4 +1,4 @@
-summary: A simple system to combine voltage signals coming from different photomultipliers amplifiers
+summary: "A simple OpAmp circuit to combine voltage signals coming from different Thorlabs PM2101 photomultipliers+amplifiers system (https://www.thorlabs.com/thorproduct.cfm?partnumber=PMT2101/M)"
 site: https://github.com/sussex-neuroscience/pmt-combiner
 bom: 1-click-bom.tsv
 gerbers: pcb/gerbers
