@@ -1,5 +1,5 @@
 summary: A simple system to combine voltage signals coming from different photomultipliers amplifiers
 site: https://github.com/sussex-neuroscience/pmt-combiner
 bom: 1-click-bom.tsv
-gerbers: pcb/flypi_pcb_kicad/gerbers
+gerbers: pcb/gerbers
 
