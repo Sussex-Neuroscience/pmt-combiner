@@ -22,7 +22,7 @@ Each channel has a switch which connects the PMT signal to the combining circuit
 
 
 #### getting the board and components:
-we are making use of the excellent [KitSpace](kitspace.org) system, head over [here]() and use their 1-click-bom system to quickly get a shopping cart with all the necessary bits to reproduce this board!
+we are making use of the excellent [KitSpace](kitspace.org) system, head over [here](https://kitspace.org/boards/github.com/sussex-neuroscience/pmt-combiner/) and use their 1-click-bom system to quickly get a shopping cart with all the necessary bits to reproduce this board!
 
 
 #### Questions, suggestions and comments in general:
